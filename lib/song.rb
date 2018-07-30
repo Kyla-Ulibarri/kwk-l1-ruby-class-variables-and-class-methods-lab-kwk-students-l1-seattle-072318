@@ -8,9 +8,9 @@ class Song
     @@count
   end
   
-  def self.artists
-    @@artists = []
-  end
+#  def self.artists
+#    @@artists = []
+ # end
   
 #   def self.genres
 #   @@genres
@@ -25,7 +25,7 @@ class Song
     
     @@count += 1
   #  @@genres[] << genre
-    @@artists = artists[] << artist
+   # @@artists = artists[] << artist
   end
  end 
  
