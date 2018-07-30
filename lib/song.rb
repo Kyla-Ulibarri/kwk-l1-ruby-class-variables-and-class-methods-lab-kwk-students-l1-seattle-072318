@@ -22,7 +22,7 @@ class Song
     
     @@count += 1
   #  @@genres[] << genre
-   # @@artists = artists[] << artist
+    @@artists = artists[] << artist
   end
  end 
    
