@@ -8,9 +8,9 @@ class Song
   
    def self.genres
    @@genres = []
-  end 
-  attr_accessor :name, :artist, :genre 
+  end
   
+  attr_accessor :name, :artist, :genre 
   
   def initialize(name, artist, genre)
     @name = name
