@@ -24,8 +24,9 @@ class Song
   #  @@genres[] << genre
     @@artists = artists[] << artist
   end
- end 
+
    
   def self.artists
     @@artists = []
   end
+end
